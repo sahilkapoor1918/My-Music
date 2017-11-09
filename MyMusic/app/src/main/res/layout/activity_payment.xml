@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PaymentActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:text="Pay Via"
+            android:textColor="#000000"
+            android:textSize="50sp" />
+
+        <ImageView
+            android:id="@+id/paypal"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/paypal" />
+
+        <ImageView
+            android:id="@+id/phonepe"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/phone_pe" />
+
+        <TextView
+            android:id="@+id/wynk_music"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="30dp"
+            android:background="#FFD54F"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:text="Listen to more songs online"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#FF6E40"
+            android:fontFamily="monospace"
+            android:gravity="center_horizontal"
+            android:text="home"
+            android:textAllCaps="true"
+            android:textColor="#3F51B5"
+            android:textSize="30sp" />
+    </LinearLayout>
+</ScrollView>
